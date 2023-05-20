@@ -1,0 +1,610 @@
+USE Library_db;
+/*POPOLAMENTO TABELLA CLIENTE*/
+/*				*/
+INSERT INTO cliente (CF,nome,cognome)
+VALUES('RSSMRA80A01F205X','mario','rossi');
+
+INSERT INTO cliente (CF,nome,cognome)
+VALUES('NTNGLL77D01E625P','antonio','giallo');
+
+INSERT INTO cliente (CF,nome,cognome)
+VALUES('LCUBNC85S53F506W','lucia','bianco');
+
+INSERT INTO cliente (CF,nome,cognome)
+VALUES('PSQLLN95T71B519I','pasqualina','lillone');
+
+INSERT INTO cliente (CF,nome,cognome)
+VALUES('NRDGGV77E21D810P','giangiovanni','narducci');
+
+INSERT INTO cliente (CF,nome,cognome)
+VALUES('DLLGN90A41E2901Z','regina','corte');
+
+INSERT INTO cliente (CF,nome,cognome)
+VALUES('GVNBRN76A01A271K','bruno','giovane');
+
+INSERT INTO cliente (CF,nome,cognome)
+VALUES('RSNLNZ94R31A373D','lorenzo','arsenico');
+
+INSERT INTO cliente (CF,nome,cognome)
+VALUES('MTTMRN80A41H703J','marina','mattei');
+
+INSERT INTO cliente (CF,nome,cognome)
+VALUES('RDNMRA73A41C495F','maria','ardente');
+
+/*POPOLAMENTO TABELLA LIBRI*/
+/*			*/
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(3668,'La Divina Commedia','Dante Alighieri','commedia');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(2657,'Il cervello','National Geographic','informativo');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(5814,'Il giro del mondo in 80 giorni','Jules Verne','fantasy');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(6491,'Viaggio al centro della Terra','jules Verne','fantasy');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(7821,'La macchina del tempo','HG Wells','fantasy');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria,tipo)
+VALUES(2525,'L\'iliade','Omero Omero','poema epico','testo storico');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria,tipo)
+VALUES(6578,'Odissea','Omero Omero','poema epico','testo storico');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria,tipo)
+VALUES(5555,'Eneide','Publio Virgilio','poema epico','testo storico');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(4444,'Intelligenza Artificiale tra incubo e sogno','Silvio Henin','informativo');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(1101,'Basi di Dati','Serena Sensini','didattico');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(9999,'ShadowHunters 1 trilogia','Cassandra Clare','fantastico');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(9998,'ShadowHunters 2 trilogia','Cassandra Clare','fantastico');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(9997,'Il rischio del segreto','Sara Dardikh','autobiografico');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(9996,'BloodRose','Andrea Cremer','autobiografico');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(9995,'Quando si avvera un desiderio','Nicholas Sparks','romanzo');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(9994,'Ti stavo pensando','Mattia Ollerongis','romanzo');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(9993,'Resta sempre qui','Gayle Forman','romanzo');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(9992,'Il cacciatore di aquiloni','Khaled Hosseini','romanzo');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(9991,'I passi dell\'amore','Nicholas Sparks','romantico');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(9990,'Questo piccolo grande amore','Viviana Leo','romantico');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria,tipo)
+VALUES(8999,'Il Piacere','Gabriele D\'Annunzio','romanzo','testo storico');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8998,'La donna di ghiaccio','Robert Bryndza','romanzo');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8997,'Cime Tempestose','Emily Bronte','fantastico');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8996,'arrivederci tra le stelle','Jack Cheng','fantastico');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8995,'Stars','Mark Westmoquette','informativo');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8994,'Lascia dire alle ombre','Jess Kidd','romanzo');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8993,'Kiss me like you love me 1','Kira Shell','romanzo');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8992,'Kiss me like you love me 2','Kira Shell','romanzo');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8991,'Kiss me like you love me 3','Kira Shell','romanzo');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8990,'Kiss me like you love me 4','Kira Shell','romanzo');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8989,'Kiss me like you love me 5','Kira Shell','romanzo');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8988,'Il conte di Montecristo','Ena Moriyama','romanzo');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8987,'Detective Conan Vol 1','Gosho Aoyama','manga');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8986,'Detective Conan Vol 2','Gosho Aoyama','manga');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8980,'Detective Conan Vol 3','Gosho Aoyama','manga');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8985,'Detective Conan Vol 4','Gosho Aoyama','manga');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8984,'Detective Conan Vol 5','Gosho Aoyama','manga');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8983,'Detective Conan Vol 6','Gosho Aoyama','manga');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8982,'Il richiamo di Cthulhu','HP Lovecraft','fantastico');
+
+INSERT INTO libro(SSN,nome,scrittore,categoria)
+VALUES(8981,'Il ritratto di Dorian Grey','Oscar Wilde','fantastico');
+
+/*Popolamento tabella enciclopedia*/
+/*	*/
+INSERT INTO enciclopedia (codiceE, argomento)
+VALUES (0000, 'CorpoUmano');
+
+INSERT INTO enciclopedia (codiceE, argomento)
+VALUES (0001, 'SistemaSolare');
+
+INSERT INTO enciclopedia (codiceE, argomento)
+VALUES (0002, 'cuore');
+
+INSERT INTO enciclopedia (codiceE, argomento)
+VALUES (0003, 'coltivazioni');
+
+INSERT INTO enciclopedia (codiceE, argomento)
+VALUES (0004, 'l\'acqua');
+
+INSERT INTO enciclopedia (codiceE, argomento)
+VALUES (0005, 'ossa');
+
+INSERT INTO enciclopedia (codiceE, argomento)
+VALUES (0006, 'mammiferi');
+
+INSERT INTO enciclopedia (codiceE, argomento)
+VALUES (0007, 'geografia');
+
+INSERT INTO enciclopedia (codiceE, argomento)
+VALUES (0008, 'montagne');
+
+INSERT INTO enciclopedia (codiceE, argomento)
+VALUES (0009, 'vulcani');
+
+INSERT INTO enciclopedia (codiceE, argomento)
+VALUES (0010, 'informatica');
+
+INSERT INTO enciclopedia (codiceE, argomento)
+VALUES (0011, 'elettrotecnica');
+
+INSERT INTO enciclopedia (codiceE, argomento)
+VALUES (0012, 'A.I.');
+
+INSERT INTO enciclopedia (codiceE, argomento)
+VALUES (0013, 'grafica3D');
+
+
+/*Popolamento tabella usufruisce*/
+/*Per il cliente mario rossi*/
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'RSSMRA80A01F205X', 0008);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'RSSMRA80A01F205X', 0001);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'RSSMRA80A01F205X', 0002);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'RSSMRA80A01F205X', 0006);
+
+
+/*Per il cliente antonio giallo*/
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'NTNGLL77D01E625P', 0003);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'NTNGLL77D01E625P', 0004);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'NTNGLL77D01E625P', 0002);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'NTNGLL77D01E625P', 0008);
+
+
+/*Per il cliente lucia bianco*/
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'LCUBNC85S53F506W', 0009);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'LCUBNC85S53F506W', 0008);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'LCUBNC85S53F506W', 0007);
+
+
+/*Per il cliente pasqualina lillone*/
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'PSQLLN95T71B519I', 0000);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'PSQLLN95T71B519I', 0002);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'PSQLLN95T71B519I', 0005);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'PSQLLN95T71B519I', 0006);
+
+
+/*Per il cliente giangiovanni narducci*/
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'NRDGGV77E21D810P', 0010);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'NRDGGV77E21D810P', 0011);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-05-18', 'NRDGGV77E21D810P', 0012);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-06-18', 'NRDGGV77E21D810P', 0000);
+
+
+/*Per il cliente regina corte*/
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-06-18', 'DLLGN90A41E2901Z', 0000);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-06-26', 'DLLGN90A41E2901Z', 0003);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-04-05', 'DLLGN90A41E2901Z', 0008);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-09-17', 'DLLGN90A41E2901Z', 0009);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-06-18', 'DLLGN90A41E2901Z', 0004);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-11-01', 'DLLGN90A41E2901Z', 0012);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2021-11-07', 'DLLGN90A41E2901Z', 0013);
+
+
+/*Per il cliente bruno giovane*/
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-06-18', 'GVNBRN76A01A271K', 0001);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2010-06-26', 'GVNBRN76A01A271K', 0007);
+
+
+/*Per il cliente lorenzo arsenico*/
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2020-01-18', 'RSNLNZ94R31A373D', 0001);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2020-01-26', 'RSNLNZ94R31A373D', 0010);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2021-11-07', 'RSNLNZ94R31A373D', 0013);
+
+
+/*Per il cliente marina mattei*/
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2021-12-25', 'MTTMRN80A41H703J', 0000);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2022-01-02', 'MTTMRN80A41H703J', 0013);
+
+
+/*Per il cliente maria ardente*/
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2017-10-25', 'RDNMRA73A41C495F', 0001);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2017-11-28', 'RDNMRA73A41C495F', 0009);
+
+INSERT INTO usufruisce (data_uso, cliente_cf, enc_cod)
+VALUES ('2018-03-27', 'RDNMRA73A41C495F', 0013);
+
+
+/*Popolamento tabella noleggia*/
+/*	*/
+/*Per il cloente mario rossi*/
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2000-01-25','RSSMRA80A01F205X',8993);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2000-01-25','RSSMRA80A01F205X',8992);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2000-01-25','RSSMRA80A01F205X',8991);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2000-01-25','RSSMRA80A01F205X',8990);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2000-01-25','RSSMRA80A01F205X',8989);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2016-12-23','RSSMRA80A01F205X',8988);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2020-10-18','RSSMRA80A01F205X',8981);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2018-07-15','RSSMRA80A01F205X',8995);
+
+
+/*Per il cliente antonio giallo*/
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2022-01-25','NTNGLL77D01E625P',8988);
+
+/*Per il cliente lucia bianco*/
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2015-01-25','LCUBNC85S53F506W',1101);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2018-09-21','LCUBNC85S53F506W',2525);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2020-10-30','LCUBNC85S53F506W',5555);
+
+/*Per il cliente pasqualina lillone*/
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2015-01-25','PSQLLN95T71B519I',1101);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2018-09-21','PSQLLN95T71B519I',2525);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2020-10-30','PSQLLN95T71B519I',5555);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2020-11-02','PSQLLN95T71B519I',6578);
+
+/*Per il cliente giangiovanni narducci*/
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2020-01-25','NRDGGV77E21D810P',8987);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2020-08-21','NRDGGV77E21D810P',8986);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2020-10-30','NRDGGV77E21D810P',8985);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2020-11-02','NRDGGV77E21D810P',8984);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2021-01-15','NRDGGV77E21D810P',8983);
+
+/*Per il cliente regina corte*/
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2020-01-25','DLLGN90A41E2901Z',9990);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2020-01-25','DLLGN90A41E2901Z',9991);
+
+/*Per il cliente bruno giovane*/
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2019-10-9','GVNBRN76A01A271K',5814);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2019-12-20','GVNBRN76A01A271K',7821);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2020-02-15','GVNBRN76A01A271K',8982);
+
+/*Per il cliente lorenzo arsenico*/
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2020-10-05','RSNLNZ94R31A373D',1101);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2020-12-06','RSNLNZ94R31A373D',2657);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2021-02-15','RSNLNZ94R31A373D',4444);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2021-05-12','RSNLNZ94R31A373D',9997);
+
+/*Per il cliente marina mattei*/
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2020-10-05','MTTMRN80A41H703J',1101);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2020-12-06','MTTMRN80A41H703J',2657);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2021-02-15','MTTMRN80A41H703J',4444);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2021-05-12','MTTMRN80A41H703J',9997);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2021-05-15','MTTMRN80A41H703J',8981);
+
+/*Per il cliente maria ardente*/
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2022-01-28','RDNMRA73A41C495F',5555);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2020-01-10','RDNMRA73A41C495F',3668);
+
+INSERT INTO noleggia(data_noleggio, cliente_cf, lib_S)
+VALUES('2021-09-12','RDNMRA73A41C495F',6578);
+
+/* Popolamento tabella impiegato*/
+/*	*/
+INSERT INTO impiegato(codiceI, nome, cognome, indirizzo)
+VALUES(1001, 'giulio', 'lambretti', 'via croce rossa 100 (MI)');
+
+INSERT INTO impiegato(codiceI, nome, cognome, indirizzo)
+VALUES(1005, 'riccardo', 'auricchio', 'via roma 15 (MI)');
+
+/*Popolamento tabella telefono*/
+/*	*/
+/*Per l'impiegato giulio lambretti*/
+INSERT INTO telefono (numero, cod_impiegato)
+VALUES('1551557514', 1001);
+
+INSERT INTO telefono (numero, cod_impiegato)
+VALUES('3378995654', 1001);
+
+/*Per l'impiegato riccardo auricchio*/
+INSERT INTO telefono (numero, cod_impiegato)
+VALUES('1110011587', 1005);
+
+/*Popolamento tabella acquista*/
+/*	*/
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2018-11-07',1001,1101);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2018-12-07',1001,2657);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2018-11-07',1001,3668);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-12-07',1001,4444);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1001,5814);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1001,6491);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1001,7821);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1001,8980);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1001,8981);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1001,8982);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2018-11-07',1001,8983);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2018-12-07',1001,8984);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1001,8985);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1001,8986);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1001,8987);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1001,8988);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1001,8989);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1001,8990);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1001,8991);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1001,8992);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1005,2525);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1005,5555);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1005,6578);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-11-08',1005,8993);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2019-12-10',1005,8994);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2019-10-09',1005,8995);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2012018-05-10',1005,8996);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-07-10',1005,8997);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-08-10',1005,8998);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-08-10',1005,8998);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1005,2525);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1005,5555);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-10-10',1005,6578);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-01-10',1005,8999);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2011-10-10',1005,9990);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2011-10-10',1005,9991);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2011-10-10',1005,9992);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2019-11-08',1005,9993);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2019-12-10',1005,9994);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2019-10-09',1005,9995);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2018-05-10',1005,9996);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-07-10',1005,9997);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-08-10',1005,9998);
+
+INSERT INTO acquista (data_acquisto, imp_cod, lib_S)
+VALUES ('2010-01-10',1005,9999);
